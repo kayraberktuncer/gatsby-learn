@@ -1,12 +1,16 @@
 import React from "react"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function Home() {
   return (
-    <div style={{ color: `purple` }}>
-      <Header headerText="Home Page" />
-      <p>What a world.</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
-    </div>
+    <>
+      <Layout>
+        <h2>Hi! I'm building a fake Gatsby site as part of a tutorial!</h2>
+        <p>
+          What do I like to do? Lots of course but definitely enjoy building
+          websites.
+      </p>
+      </Layout>
+    </>
   );
 }
